@@ -1,0 +1,25 @@
+include<stdio.h>
+
+int main(void)
+{
+printf( "Hello, world\n");
+}
+$ clang hello.clang
+$./a.out
+
+\n = moves the cursor to the next line
+printf("hello, %s\n " , answer       );
+
+get_string("What is your name?\n);
+printf= is the go to function every time you want to print something on the screen
+
+Joining the word "hello" that is being printed out, with the user input 
+But because we dont know the user input yet, we use a placeholder using a percent sign and s 
+prinf("hello, %s\n", answerr   ); separating the arguments using comma/ print out the answer + the name of the variable where the user stores its name
+
+include<studio.h>
+int main(void)
+{
+    string answer = get string(" What's your name?\n);
+    printf ("hello, %\n", answer);
+}

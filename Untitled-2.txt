@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main 
+printf ("Name    : Gilberto\n" )
+
+Write a progaram to check the eversion you're using
+
+#include<studio.h>
+int main()
+{
+    #if__STDC_VERSION__>  201710L
+    printf("We are using C11!\n");
+    #elif__STDC_VERSION__>=201112L
+    printf(We are using C11!\n");
+    #elif__STDC_VERSION__>=199901L
+    printf("We are using C99!\n");
+    #else 
+    printf("We are using C99!\n");
+    #endif
+    return 0; 
+}

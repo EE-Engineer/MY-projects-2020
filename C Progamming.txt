@@ -1,0 +1,50 @@
+C Progamming 
+- Data structures//Pointers
+Arrays allow to define type variables tha can hold items of some kind.
+ Similarly structure is another user defined data type variable available 
+ that allows to combine data items of different kinds.
+
+ Structures are used to represent a record.
+ Suppose you want to keep track of your books in a library.You might want to 
+ track the following attributes about each book :
+ 
+ -Title
+ -Author
+ -Subject
+ -Book ID
+
+
+
+#include "stdio."
+ 
+ typedef structut
+
+
+
+
+
+Pointers
+Pointers are variables used to store the memmory address of other variables
+int*p ;  Here, the asterisk is used to indicate that "p" is 
+a pointer variable and not a normal variabe that stores values.
+The content of the \c pointer always be a whole numer i.e address
+Always C pointer is initalized to null, i.e int*p=null.
+The value of null pointer is 0
+Two pointers can be subtracted to knoe hopw many elements are available between  two these points 
+But, Pointer addition, multiplication, division are not allowed.
+
+& symbol is used to get the adress of the variable
+* simbol is used to get the value of the variable that the pointer is pointing to
+ example:
+ #include<stdio.h>
+ int main()
+ {
+     int*ptr, q;
+     q= 50;
+     //*adress pf a q os assigned to ptr//created a variable to store the value of q
+     ptr = &q;
+     /*displays q's value using ptr variable */
+     printf("%d", ptr)
+     return 0;
+
+ }
